@@ -297,11 +297,11 @@ div.text {
   bottom: 0;
   position: relative;
   width: 100%;
-  height: 350px;
+  height: 150px;
   overflow: scroll;
   margin-bottom: 20px;
   margin-top: 30px;
-  z-index: 55;
+  z-index: 105;
 }
 
 body {
