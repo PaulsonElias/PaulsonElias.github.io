@@ -79,5 +79,6 @@ a:hover {
     top: 1;
     bottom: unset;
     margin-top: 20px;
+    z-index: 10;
   }
 }
