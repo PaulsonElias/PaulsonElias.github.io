@@ -170,7 +170,7 @@ img.video {
   left: 0;
   right: 0;
   padding-top: 30px;
-  position: unset;
+  position: relative;
   display: block;
 }
 img.video2 {
@@ -182,7 +182,7 @@ img.video2 {
   right: 0;
   padding-top: 40px;
   padding-bottom: 30px;
-  position: unset;
+  position: relative;
   display: block;
 }
 img.video3 {
@@ -193,7 +193,7 @@ img.video3 {
   right: 0;
   padding-top: 0px;
   padding-bottom: 100px;
-  position: unset;
+  position: relative;
   display: block;
   justify-content: center;
   width: 90%;
