@@ -1,0 +1,497 @@
+@font-face {
+  font-family: 'bit';
+  src: url('Retro Computer_DEMO.ttf');
+}
+@font-face {
+  font-family: 'cool';
+  src: url('full Pack 2025.ttf');
+}
+@font-face {
+  font-family: 'block';
+  src: url('italic_bricks.ttf');
+}
+h1.title {  float: all;
+  clear: all;
+  font-family: sans-serif; 
+  text-align: left;
+  margin-top: 30px;
+  margin-right: 0px;
+  font-style: italic;
+  font-size: 25px;
+  padding-left: 40px;
+}
+h1.title2 {
+    float: all;
+  clear: all;
+  font-family: sans-serif; 
+  font-size: 15px;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+h1.title3 {
+  font-family: sans-serif; 
+  font-size: 10px;
+  line-height: 12px;
+}
+iframe {
+  padding-top: 30px;
+  padding-right: 40px;
+  float: all;
+  clear: all;
+  right: 0;
+  top: 0;
+  position: absolute;
+  margin: auto;
+}
+div.text {
+  padding-right: 40px;
+  float: all;
+  clear: all;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto; 
+  width: 340px;
+  height: 130px;
+  overflow: scroll;
+  margin-bottom: 20px;
+}
+
+body {
+}
+div.back {
+  background-image: url(back.png);
+  background-size: 30px;
+  float: left;
+  clear: all;
+  width: 30px;
+  height: 60px;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  margin-left: 20px;
+}
+div.back:hover {
+  background-image: url(back2.png);
+}
+img.video {
+  width: 40%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+  position: absolute;
+}
+img.video2 {
+  width: 40%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 900px;
+  padding-bottom: 100px;
+  position: absolute;
+}
+a:hover {
+  cursor: crosshair;
+}
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+.slides {
+    padding: 0;
+    width: 900px;
+    height: 614px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 900px;
+    height: 614px;
+    display: block;
+    position: absolute;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+  padding-top: 105px;
+    width: 100px;
+    height: 70%;
+    display: none;
+    position: absolute;
+
+    opacity: 0;
+    z-index: 9;
+    cursor: crosshair;
+
+    transition: opacity .1s;
+
+    color: #FFF;
+    font-size: 100pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: transparent;
+
+}
+
+.slide:hover + .nav label { opacity: 0; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity .5s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+  margin-bottom: -30px;
+  width: 100%;
+  bottom: 9px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+.nav-dots .nav-dot {
+  top: -5px;
+  width: 5px;
+  height: 5px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-dots .nav-dot:hover {
+  cursor: crosshair;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6,
+input#img-7:checked ~ .nav-dots label#img-dot-7,
+input#img-8:checked ~ .nav-dots label#img-dot-8,
+input#img-9:checked ~ .nav-dots label#img-dot-9,
+input#img-10:checked ~ .nav-dots label#img-dot-10,
+input#img-11:checked ~ .nav-dots label#img-dot-11,
+input#img-12:checked ~ .nav-dots label#img-dot-12,
+input#img-13:checked ~ .nav-dots label#img-dot-13,
+input#img-14:checked ~ .nav-dots label#img-dot-14,
+input#img-15:checked ~ .nav-dots label#img-dot-15,
+input#img-16:checked ~ .nav-dots label#img-dot-16,
+input#img-17:checked ~ .nav-dots label#img-dot-17,
+input#img-18:checked ~ .nav-dots label#img-dot-18,
+input#img-19:checked ~ .nav-dots label#img-dot-19,
+input#img-20:checked ~ .nav-dots label#img-dot-20,
+input#img-21:checked ~ .nav-dots label#img-dot-21,
+input#img-22:checked ~ .nav-dots label#img-dot-22,
+input#img-23:checked ~ .nav-dots label#img-dot-23,
+input#img-24:checked ~ .nav-dots label#img-dot-24
+ {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+div.all {
+  margin-top: 550px;
+  padding-bottom: 50px;
+}
+
+div.top {
+  width: 900px;
+  height: 500px;
+  background-image: url(grain2.png);
+  background-size: 900px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -3;
+  margin: auto;
+}
+
+@media screen and (max-width: 650px) {
+  h1.title {  
+    float: all;
+  clear: all;
+  font-family: sans-serif; 
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-right: 0px;
+  font-style: italic;
+  font-size: 25px;
+  padding-left: 0px;
+}
+h1.title2 {
+    float: all;
+  clear: all;
+  font-family: sans-serif; 
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+h1.title3 {
+  padding: 10px;
+  font-family: sans-serif; 
+  font-size: 12px;
+  line-height: 13px;
+}
+iframe {
+  display: block;
+  padding-top: 30px;
+  padding-right: 0px;
+  float: all;
+  clear: all;
+  right: 0;
+  left: 0;
+  top: unset;
+  position: relative;
+  margin: auto;
+}
+div.text {
+  display: block;
+  float: all;
+  clear: all;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  overflow: scroll;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+body {
+}
+div.back {
+  background-image: url(back.png);
+  background-size: 30px;
+  float: left;
+  clear: all;
+  width: 30px;
+  height: 60px;
+  position: fixed;
+  margin: auto;
+  top: 1;
+  bottom: unset;
+  margin-top: 20px;
+  z-index: 5;
+  margin-left: 20px;
+}
+div.back:hover {
+  background-image: url(back2.png);
+}
+img.video {
+  width: 40%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+  position: absolute;
+}
+img.video2 {
+  width: 40%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 900px;
+  padding-bottom: 100px;
+  position: absolute;
+}
+a:hover {
+  cursor: crosshair;
+}
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+
+.slides {
+    padding: 0;
+    width: 340px;
+    height: 232px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 340px;
+    height: 232px;
+    display: block;
+    position: absolute;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+  padding-top: 105px;
+    width: 100px;
+    height: 70%;
+    display: none;
+    position: absolute;
+
+    opacity: 0;
+    z-index: 9;
+    cursor: crosshair;
+
+    transition: opacity .1s;
+
+    color: #FFF;
+    font-size: 100pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: transparent;
+
+}
+
+.slide:hover + .nav label { opacity: 0; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity .5s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+  margin-bottom: -30px;
+  width: 100%;
+  bottom: 9px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+.nav-dots .nav-dot {
+  top: -5px;
+  width: 5px;
+  height: 5px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-dots .nav-dot:hover {
+  cursor: crosshair;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6,
+input#img-7:checked ~ .nav-dots label#img-dot-7,
+input#img-8:checked ~ .nav-dots label#img-dot-8,
+input#img-9:checked ~ .nav-dots label#img-dot-9,
+input#img-10:checked ~ .nav-dots label#img-dot-10,
+input#img-11:checked ~ .nav-dots label#img-dot-11,
+input#img-12:checked ~ .nav-dots label#img-dot-12,
+input#img-13:checked ~ .nav-dots label#img-dot-13,
+input#img-14:checked ~ .nav-dots label#img-dot-14,
+input#img-15:checked ~ .nav-dots label#img-dot-15,
+input#img-16:checked ~ .nav-dots label#img-dot-16,
+input#img-17:checked ~ .nav-dots label#img-dot-17,
+input#img-18:checked ~ .nav-dots label#img-dot-18,
+input#img-19:checked ~ .nav-dots label#img-dot-19,
+input#img-20:checked ~ .nav-dots label#img-dot-20,
+input#img-21:checked ~ .nav-dots label#img-dot-21,
+input#img-22:checked ~ .nav-dots label#img-dot-22,
+input#img-23:checked ~ .nav-dots label#img-dot-23,
+input#img-24:checked ~ .nav-dots label#img-dot-24
+ {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+div.all {
+  margin-top: 530px;
+  padding-bottom: 0px;
+}
+
+div.top {
+  padding-top: 10px;
+  width: 100%;
+  height: 100px;
+  background-image: url();
+  background-size: 100%;
+  background-position: center;
+  position: unset;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -3;
+  margin: auto;
+}
+
+}
