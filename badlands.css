@@ -486,7 +486,7 @@ div.top {
   background-image: url();
   background-size: 100%;
   background-position: center;
-  position: unset;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
