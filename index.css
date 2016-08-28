@@ -672,7 +672,7 @@ div.right {
   white-space: unset;
   float: all;
   clear: all;
-  position: unset;
+  position: relative;
   top: unset;
   bottom: unset;
   top: unset;
