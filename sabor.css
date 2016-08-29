@@ -12,7 +12,8 @@ h1 {
      right: 0;
      top: 1;
      bottom: 0;
-     position: absolute;
+     position: relative;
+     text-align: center;
      margin-bottom: 20px;
 }
 a {
