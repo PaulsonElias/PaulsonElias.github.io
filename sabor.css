@@ -6,6 +6,19 @@ body {
   background-size: cover;
   background-color: black;
 }
+h1 {
+     margin: auto;
+     top: 1;
+     bottom: 0;
+     position: absolute;
+}
+a {
+     text-decoration: none;
+     color: white;
+     font-family: sans-serif;
+     font-size: 12px;
+     padding-bottom: 20px;
+}
 div.back {
   background-image: url(back.png);
   background-size: 30px;
@@ -52,5 +65,6 @@ width: 740px; /* you have to have a size or this method doesn't work */
 }
 a:hover {
      cursor: crosshair;
+     text-decoration: underline;
 }
 
