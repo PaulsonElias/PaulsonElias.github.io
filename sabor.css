@@ -50,4 +50,7 @@ width: 740px; /* you have to have a size or this method doesn't work */
     width: 100%;
     height: 100%;
 }
+a:hover {
+     cursor: crosshair;
+}
 
