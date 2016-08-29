@@ -67,6 +67,7 @@ div.back:hover {
 img.video {
   padding-right: 380px;
   width: 40%;
+  max-width: 450px;
   margin: auto;
   left: 0;
   right: 0;
@@ -75,6 +76,7 @@ img.video {
 }
 img.video2 {
   width: 70%;
+  max-width: 450px;
   margin: auto;
   left: 0;
   right: 0;
@@ -85,6 +87,7 @@ img.video2 {
 img.video3 {
   padding-left: 380px;
   width: 40%;
+  max-width: 450px;
   margin: auto;
   left: 0;
   right: 0;
