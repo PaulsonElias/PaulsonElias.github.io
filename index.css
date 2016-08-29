@@ -906,6 +906,24 @@ div.laputa {
   background-color: transparent;
   background-size: 100%;
 }
+div.sabor {
+  visibility: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150%;
+  width: 0%;
+  transform: translateY(-33.5%);
+  margin-left: 160%;
+  background-image: url('sabor.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+}
 div.test2 {
   visibility: hidden;
   top: 0;
