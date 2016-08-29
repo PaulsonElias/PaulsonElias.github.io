@@ -68,6 +68,7 @@ img.video {
   padding-right: 380px;
   width: 40%;
   max-width: 550px;
+  min-width: 500px;
   margin: auto;
   left: 0;
   right: 0;
@@ -77,6 +78,7 @@ img.video {
 img.video2 {
   width: 70%;
   max-width: 800px;
+  min-width: 700px;
   margin: auto;
   left: 0;
   right: 0;
@@ -88,6 +90,7 @@ img.video3 {
   padding-left: 380px;
   width: 40%;
   max-width: 550px;
+  min-width: 500px;
   margin: auto;
   left: 0;
   right: 0;
