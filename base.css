@@ -66,16 +66,18 @@ img.video {
   left: 0;
   right: 0;
   padding-top: 30px;
-  position: absolute;
+  position: relative;
+  text-align: center;
 }
 img.video2 {
   width: 42%;
   margin: auto;
   left: 0;
   right: 0;
-  padding-top: 900px;
+  padding-top: 30px;
   padding-bottom: 100px;
-  position: absolute;
+  position: relative;
+  text-align: center;
 }
 a:hover {
   cursor: crosshair;
