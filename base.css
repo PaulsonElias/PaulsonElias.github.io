@@ -45,6 +45,7 @@ h1.title4 {
 body {
 }
 div.back {
+  z-index: 3;
   background-image: url(back.png);
   background-size: 30px;
   float: left;
@@ -68,6 +69,7 @@ img.video {
   padding-top: 30px;
   position: relative;
   text-align: center;
+  display: block;
 }
 img.video2 {
   width: 42%;
@@ -78,6 +80,7 @@ img.video2 {
   padding-bottom: 100px;
   position: relative;
   text-align: center;
+  display: block;
 }
 a:hover {
   cursor: crosshair;
