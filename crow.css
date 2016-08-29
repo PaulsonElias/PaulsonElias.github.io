@@ -76,11 +76,11 @@ img.video {
 }
 img.video2 {
   width: 70%;
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
   left: 0;
   right: 0;
-  padding-top: 500px;
+  padding-top: 560px;
   padding-bottom: 100px;
   position: absolute;
 }
