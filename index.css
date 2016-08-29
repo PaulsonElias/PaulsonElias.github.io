@@ -250,6 +250,11 @@ li a:hover + div.space {
   z-index: -10;
   opacity: 0.5;
 }
+li a:hover + div.sabor {
+  visibility: visible;
+  z-index: -10;
+  opacity: 1;
+}
 img.test {
   position: absolute;
   margin: auto;
@@ -297,6 +302,23 @@ div.lizzo {
 	background-position: center;
 	background-color: transparent;
 	background-size: 100%;
+}
+div.sabor {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150%;
+  width: 180%;
+  transform: translateY(-33.5%);
+  margin-left: 160%;
+  background-image: url('sabor.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
 }
 div.laputa {
 	top: 0;
