@@ -173,7 +173,7 @@ img.video {
   padding-right: 0px;
   justify-content: center;
   width: 90%;
-  min-width: none;
+  min-width: 0px;
   margin: auto;
   left: 0;
   right: 0;
@@ -185,7 +185,7 @@ img.video2 {
   padding-left: 0px;
   justify-content: center;
   width: 90%;
-   min-width: none;
+   min-width: 0px;
   margin: auto;
   left: 0;
   right: 0;
@@ -197,7 +197,7 @@ img.video2 {
 img.video3 {
   padding-left: 0px;
   width: 90%;
-   min-width: none;
+   min-width: 0px;
   margin: auto;
   left: 0;
   right: 0;
