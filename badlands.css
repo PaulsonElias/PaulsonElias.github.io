@@ -47,6 +47,7 @@ iframe {
   margin: auto;
 }
 div.text {
+  visibility: hidden;
   padding-right: 40px;
   float: all;
   clear: all;
