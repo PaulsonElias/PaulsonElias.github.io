@@ -215,16 +215,6 @@ li a:hover + div.laputa {
   z-index: -10;
   opacity: 0.2;
 }
-li a:hover + div.deantoni {
-  visibility: visible;
-  z-index: -10;
-  opacity: 0.3;
-}
-li a:hover + div.saasen {
-  visibility: visible;
-  z-index: -10;
-  opacity: 1;
-}
 li a:hover + div.crow {
   visibility: visible;
   z-index: -10;
@@ -330,23 +320,6 @@ div.sabor {
   background-color: transparent;
   background-size: 100%;
 }
-div.deantoni {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-left: 160%;
-  background-image: url('deantoni.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
-}
 div.laputa {
 	top: 0;
 	bottom: 0;
@@ -443,7 +416,7 @@ div.wallpaper {
   width: 180%;
   transform: translateY(-33.5%);
   margin-right: 160%;
-  background-image: url('coin.png');
+  background-image: url('wallpaper.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -461,23 +434,6 @@ div.store {
   transform: translateY(-33.5%);
   margin-right: 160%;
   background-image: url('store.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
-}
-div.saasen {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-right: 160%;
-  background-image: url('saasen.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -691,7 +647,7 @@ img.name {
  }
 img.video {
   justify-content: center;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   padding-left: 0px;
   float: left;
   clear: all;
@@ -722,7 +678,7 @@ ul.video {
   line-height: 27px;
 }
 div.left {
-  margin-top: 410px; 
+  margin-top: 360px; 
   z-index: 3;
   white-space: unset;
   float: all;
@@ -1052,25 +1008,7 @@ div.wallpaper {
   width: 0%;
   transform: translateY(-33.5%);
   margin-right: 160%;
-  background-image: url('coin.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
-}
-div.deantoni {
-  visibility: hidden;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-left: 160%;
-  background-image: url('humanize.png');
+  background-image: url('wallpaper.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -1130,24 +1068,6 @@ div.eddy {
   background-color: transparent;
   background-size: 80%;
 }
-div.saasen {
-  visibility: hidden;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-right: 160%;
-  background-image: url('saasen.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 80%;
-}
 div.space {
   visibility: hidden;
   top: 0;
@@ -1177,7 +1097,7 @@ div.box2 {
   width: 38%;
   top: 0;
   bottom: 0;
-  margin-top: 110px;
+  margin-top: 70px;
 }
 img.box {
   position: absolute;
