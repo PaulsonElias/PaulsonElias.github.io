@@ -215,6 +215,16 @@ li a:hover + div.laputa {
   z-index: -10;
   opacity: 0.2;
 }
+li a:hover + div.deantoni {
+  visibility: visible;
+  z-index: -10;
+  opacity: 0.3;
+}
+li a:hover + div.saasen {
+  visibility: visible;
+  z-index: -10;
+  opacity: 1;
+}
 li a:hover + div.crow {
   visibility: visible;
   z-index: -10;
@@ -224,16 +234,6 @@ li a:hover + div.humanize {
   visibility: visible;
   z-index: -10;
   opacity: 0.3;
-}
-li a:hover + div.deantoni {
-  visibility: visible;
-  z-index: -10;
-  opacity: 0.3;
-}
-li a:hover + div.sabor {
-  visibility: visible;
-  z-index: -10;
-  opacity: 1;
 }
 li a:hover + div.wallpaper {
   visibility: visible;
@@ -255,15 +255,15 @@ li a:hover + div.eddy {
   z-index: -10;
   opacity: 0.5;
 }
-li a:hover + div.saasen {
-  visibility: visible;
-  z-index: -10;
-  opacity: 1;
-}
 li a:hover + div.space {
   visibility: visible;
   z-index: -10;
   opacity: 0.5;
+}
+li a:hover + div.sabor {
+  visibility: visible;
+  z-index: -10;
+  opacity: 1;
 }
 img.test {
   position: absolute;
@@ -312,6 +312,40 @@ div.lizzo {
 	background-position: center;
 	background-color: transparent;
 	background-size: 100%;
+}
+div.sabor {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150%;
+  width: 180%;
+  transform: translateY(-33.5%);
+  margin-left: 160%;
+  background-image: url('sabor.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+}
+div.deantoni {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150%;
+  width: 180%;
+  transform: translateY(-33.5%);
+  margin-left: 160%;
+  background-image: url('deantoni.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
 }
 div.laputa {
 	top: 0;
@@ -398,40 +432,6 @@ div.humanize {
   background-color: transparent;
   background-size: 100%;
 }
-div.deantoni {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-left: 160%;
-  background-image: url('deantoni.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
-}
-div.sabor {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-left: 160%;
-  background-image: url('sabor.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
-}
 div.wallpaper {
   top: 0;
   bottom: 0;
@@ -461,6 +461,23 @@ div.store {
   transform: translateY(-33.5%);
   margin-right: 160%;
   background-image: url('store.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+}
+div.saasen {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150%;
+  width: 180%;
+  transform: translateY(-33.5%);
+  margin-right: 160%;
+  background-image: url('saasen.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -499,23 +516,6 @@ div.eddy {
   background-position: center;
   background-color: transparent;
   background-size: 80%;
-}
-div.saasen {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 180%;
-  transform: translateY(-33.5%);
-  margin-right: 160%;
-  background-image: url('saasen.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
 }
 div.space {
   top: 0;
@@ -635,7 +635,6 @@ p.bottom {
 @media screen and (max-width: 650px) {
   div.box {
     width: 90%;
-
     position: fixed;
     background-color: white;
   }
@@ -692,7 +691,7 @@ img.name {
  }
 img.video {
   justify-content: center;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
   padding-left: 0px;
   float: left;
   clear: all;
@@ -723,7 +722,7 @@ ul.video {
   line-height: 27px;
 }
 div.left {
-  margin-top: 410px; 
+  margin-top: 360px; 
   z-index: 3;
   white-space: unset;
   float: all;
@@ -933,24 +932,6 @@ div.lizzo {
   background-color: transparent;
   background-size: 100%;
 }
-div.sabor {
-  visibility: hidden;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  position: absolute;
-  height: 150%;
-  width: 0%;
-  transform: translateY(-33.5%);
-  margin-left: 160%;
-  background-image: url('sabor.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  background-size: 100%;
-}
 div.laputa {
   visibility: hidden;
   top: 0;
@@ -964,6 +945,24 @@ div.laputa {
   transform: translateY(-33.5%);
   margin-left: 160%;
   background-image: url('laputa.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  background-size: 100%;
+}
+div.sabor {
+  visibility: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 150%;
+  width: 0%;
+  transform: translateY(-33.5%);
+  margin-left: 160%;
+  background-image: url('sabor.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -1053,7 +1052,7 @@ div.wallpaper {
   width: 0%;
   transform: translateY(-33.5%);
   margin-right: 160%;
-  background-image: url('wallpaper.png');
+  background-image: url('coin.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -1143,7 +1142,7 @@ div.saasen {
   width: 180%;
   transform: translateY(-33.5%);
   margin-right: 160%;
-  background-image: url('eddy.png');
+  background-image: url('saasen.png');
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
@@ -1178,7 +1177,7 @@ div.box2 {
   width: 38%;
   top: 0;
   bottom: 0;
-  margin-top: 110px;
+  margin-top: 70px;
 }
 img.box {
   position: absolute;
