@@ -30,21 +30,20 @@
 }
 h1.title {
   color: black;
-  font-style: italic;
-  font-family: sans-serif; 
+  font-family: 'Nunito Sans', sans-serif; 
   text-align: center;
   margin-top: 50px;
   font-size: 20px;
 }
 h1.title2 {
   color: black;
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif; 
   font-size: 11px;
   text-align: center;
   margin-top: 10px;
 }
 h1.title3 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif;
   font-style: italic;
   font-size: 9px;
   text-align: center;
