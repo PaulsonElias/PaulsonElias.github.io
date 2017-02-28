@@ -25,13 +25,13 @@
 h1.title {
   margin-top: 20px;
   font-style: italic;
-  font-family: sans-serif; 
+ font-family: 'Nunito Sans', sans-serif; 
   text-align: center;
 }
 h1.title2 {
   top: 0;
   bottom: 0;
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif; 
   font-size: 11px;
   text-align: center;
   margin-top: 10px;
