@@ -12,18 +12,17 @@
 }
 h1.title {  float: all;
   clear: all;
-  font-family: sans-serif; 
+  font-family: 'Nunito Sans', sans-serif; 
   text-align: left;
   margin-top: 30px;
   margin-right: 0px;
-  font-style: italic;
   font-size: 25px;
   padding-left: 40px;
 }
 h1.title2 {
     float: all;
   clear: all;
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif; 
   font-size: 15px;
   text-align: left;
   margin-top: 10px;
@@ -32,7 +31,7 @@ h1.title2 {
   padding-left: 40px;
 }
 h1.title3 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif;
   font-size: 10px;
   line-height: 12px;
 }
@@ -252,7 +251,7 @@ div.top {
   h1.title {  
     float: all;
   clear: all;
-  font-family: sans-serif; 
+  font-family: 'Nunito Sans', sans-serif; 
   text-align: center;
   margin-top: 0px;
   padding-top: 20px;
@@ -264,7 +263,7 @@ div.top {
 h1.title2 {
     float: all;
   clear: all;
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif; 
   font-size: 15px;
   text-align: center;
   margin-top: 10px;
@@ -274,7 +273,7 @@ h1.title2 {
 }
 h1.title3 {
   padding: 10px;
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif; 
   font-size: 12px;
   line-height: 13px;
 }
