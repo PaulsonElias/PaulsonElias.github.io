@@ -11,22 +11,22 @@
   src: url('italic_bricks.ttf');
 }
 h1.title {
-  font-family: sans-serif; 
+  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   margin-top: 50px;
   margin-right: 0px;
-  font-style: italic;
   font-size: 20px;
 }
 h1.title2 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif;
+   font-style: italic;
   font-size: 11px;
   text-align: center;
   margin-top: 10px;
   margin-right: 0px;
 }
 h1.title3 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif;
   font-style: italic;
   font-size: 9px;
   text-align: center;
@@ -90,15 +90,15 @@ a:hover {
   src: url('italic_bricks.ttf');
 }
 h1.title {
-  font-family: sans-serif; 
+  font-family: 'Nunito Sans', sans-serif; 
   text-align: center;
   margin-top: 50px;
   margin-right: 0px;
-  font-style: italic;
   font-size: 20px;
 }
 h1.title2 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif;
+   font-style: italic;
   font-size: 11px;
   text-align: center;
   margin-top: 10px;
@@ -106,7 +106,7 @@ h1.title2 {
 }
 
 h1.title3 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif; 
   font-style: italic;
   font-size: 9px;
   text-align: center;
@@ -114,7 +114,7 @@ h1.title3 {
   margin-right: 0px;
 }
 h1.title4 {
-  font-family: sans-serif; 
+  font-family: 'Droid Serif', serif;
   font-size: 11px;
   text-align: center;
   margin-top: 00px;
