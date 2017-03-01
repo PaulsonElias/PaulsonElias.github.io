@@ -28,13 +28,14 @@
     transform: rotate(90deg);
 }
 h1.title {
-
+z-index: 3;
  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   margin-top: 50px;
   font-size: 20px;
 }
 h1.title2 {
+  z-index: 3;
   font-style: italic;
   font-family: 'Droid Serif', serif; 
   font-size: 11px;
@@ -42,6 +43,7 @@ h1.title2 {
   margin-top: 10px;
 }
 h1.title3 {
+  z-index: 3;
   font-family: 'Droid Serif', serif; 
   font-style: italic;
   font-size: 9px;
