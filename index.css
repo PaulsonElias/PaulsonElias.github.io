@@ -195,10 +195,10 @@ div.illustration li div {
   visibility: hidden;
   z-index: -49;
 }
-li a:hover + div {
+li a:hover + div.test2 {
   visibility: visible;
   z-index: -10;
-  opacity: 0.2;
+  opacity: 1;
 }
 li a:hover + div.flower {
   visibility: visible;
