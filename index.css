@@ -208,7 +208,7 @@ li a:hover + div.flower {
 li a:hover + div.lizzo {
   visibility: visible;
   z-index: -10;
-  opacity: 0.25;
+  opacity: 1;
 }
 li a:hover + div.laputa {
   visibility: visible;
