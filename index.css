@@ -258,7 +258,7 @@ li a:hover + div.eddy {
 li a:hover + div.space {
   visibility: visible;
   z-index: -10;
-  opacity: 0.5;
+  opacity: 1;
 }
 li a:hover + div.sabor {
   visibility: visible;
