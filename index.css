@@ -203,7 +203,7 @@ li a:hover + div.test2 {
 li a:hover + div.flower {
   visibility: visible;
   z-index: -10;
-  opacity: 0.35;
+  opacity: 1;
 }
 li a:hover + div.lizzo {
   visibility: visible;
