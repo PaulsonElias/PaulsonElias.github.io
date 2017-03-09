@@ -238,7 +238,7 @@ li a:hover + div.humanize {
 li a:hover + div.wallpaper {
   visibility: visible;
   z-index: -10;
-  opacity: 0.3;
+  opacity: 1;
 }
 li a:hover + div.store {
   visibility: visible;
