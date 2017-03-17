@@ -213,7 +213,7 @@ li a:hover + div.lizzo {
 li a:hover + div.laputa {
   visibility: visible;
   z-index: -10;
-  opacity: 0.2;
+  opacity: 1;
 }
 li a:hover + div.deantoni {
   visibility: visible;
@@ -362,7 +362,7 @@ div.laputa {
   background-repeat: no-repeat;
   background-position: center;
   background-color: transparent;
-  background-size: 100%;
+  background-size: 80%;
 }
 div.test2 {
   top: 0;
