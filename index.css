@@ -90,7 +90,7 @@ div.background {
   opacity: 30%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
 
   html {
   height: 100%;
