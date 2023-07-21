@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'main';
-  src: url('./_fonts/HelveticaNeueLTStd-BdCn.otf');
+  src: url('./fonts/HelveticaNeueLTStd-BdCn.otf');
 }
 @font-face {
   font-family: 'fancy';
-  src: url('./_fonts/SaolDisplay-Thin.otf');
+  src: url('./fonts/SaolDisplay-Thin.otf');
 }
 
 html {
