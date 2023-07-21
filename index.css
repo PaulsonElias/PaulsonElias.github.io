@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'main';
-  src: url('./fonts/HelveticaNeueLTStd-BdCn.otf');
+  src: url('./_fonts/HelveticaNeueLTStd-BdCn.otf');
 }
 @font-face {
   font-family: 'fancy';
-  src: url('./fonts/SaolDisplay-Thin.otf');
+  src: url('./_fonts/SaolDisplay-Thin.otf');
 }
 
 html {
@@ -15,20 +15,22 @@ body {
   height: 100%;
      background-image: url();
      background-size: 100%;
-     background-color: #fbf5eb;
+     background-color: #332a22;
 }
 h1.header {
 	font-family: 'main';
+	position: absolute;
 	top: 0;
 	bottom: 1;
 	left: 0;
  	right: 1;
-	color: #332a22;
+	color: #fbf5eb;
 	font-size: 200px;
 	margin: auto;
 	padding-top: 35px;
 	padding-left: 15px;
 	line-height: 170px;
+	background: transparent;
 }
 h1.subheader {
 	font-family: 'main';
@@ -37,12 +39,13 @@ h1.subheader {
 	bottom: 0;
 	left: 0;
  	right: 1;
-	color: #332a22;
+	color: #fbf5eb;
 	font-size: 70px;
 	margin: auto;
 	padding-bottom: 5px;
 	padding-left: 15px;
 	line-height: 60px;
+	background: transparent;
 }
 a.link {
 	font-family: 'fancy';
@@ -50,7 +53,7 @@ a.link {
 	bottom: 0;
 	left: 0;
  	right: 1;
-	color: #332a22;
+	color: #fbf5eb;
 	font-size: 73px;
 	margin: auto;
 	line-height: 60px;
@@ -61,6 +64,29 @@ img.svg {
 	width: auto;
 	vertical-align: text-bottom;
 	transform: translateY(-40px);
+}
+div.background {
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	clear: all;
+	float: all;
+	z-index: -1;
+	background: #fbf5eb;
+	opacity: 10%;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+  opacity: 30%;
 }
 
 @media screen and (max-width: 650px) {
@@ -73,18 +99,19 @@ body {
   height: 100%;
      background-image: url();
      background-size: 100%;
-     background-color: #fbf5eb;
+     background-color: #332a22;
 }
 h1.header {
 	font-family: 'main';
+	position: absolute;
 	top: 0;
 	bottom: 1;
 	left: 0;
  	right: 1;
-	color: #332a22;
+	color: #fbf5eb;
 	font-size: 70px;
 	margin: auto;
-	padding-top: 35px;
+	padding-top: 25px;
 	padding-left: 15px;
 	line-height: 60px;
 }
@@ -95,7 +122,7 @@ h1.subheader {
 	bottom: 0;
 	left: 0;
  	right: 1;
-	color: #332a22;
+	color: #fbf5eb;
 	font-size: 70px;
 	margin: auto;
 	padding-bottom: 5px;
@@ -108,7 +135,7 @@ a.link {
 	bottom: 0;
 	left: 0;
  	right: 1;
-	color: #332a22;
+	color: #fbf5eb;
 	font-size: 73px;
 	margin: auto;
 	line-height: 60px;
