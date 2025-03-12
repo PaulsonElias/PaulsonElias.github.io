@@ -127,7 +127,7 @@ h1.subheader {
 	line-height: 60px;
 }
 a.link {
-	font-family: 'fancy';
+	font-family: 'main';
 	top: 1;
 	bottom: 0;
 	left: 0;
@@ -136,7 +136,7 @@ a.link {
 	font-size: 73px;
 	margin: auto;
 	line-height: 60px;
-	text-decoration: none;
+	text-decoration: underline;
 }
 img.svg {
 	height: 150px;
